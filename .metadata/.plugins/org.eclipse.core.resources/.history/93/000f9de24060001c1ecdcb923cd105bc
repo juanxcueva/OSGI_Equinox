@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Toast Airbag
+Bundle-SymbolicName: org.equinoxosgi.toast.dev.airbag
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: org.equinoxosgi.toast.dev.airbag
+Bundle-RequiredExecutionEnvironment: J2SE-1.4

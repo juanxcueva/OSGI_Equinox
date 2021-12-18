@@ -1,0 +1,25 @@
+package org.equinoxosgi.toast.client.emergency;
+
+import org.osgi.framework.BundleActivator;
+
+public class Activator implements BundleActivator {
+	private Airbag airbag;
+	private Gps gps;
+	private EmergencyMonitor monitor;
+
+	public void start(BundleContext context) throws Exception {
+ System.out.println("Launching");
+ gps = new Gps();
+ airbag = new Airbag();
+ monitor = new EmergencyMonitor();
+ monitor.setGps(gps);
+ monitor.setAirbag(airbag);
+ monitor.startup();
+ airbag.deploy();
+ }
+
+	public void stop(BundleContext context) throws Exception {
+ monitor.shutdown();
+ System.out.println("Terminating");
+ }
+}

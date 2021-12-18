@@ -1,0 +1,12 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Main,org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:org.equinoxosgi.toast.dev.gps,org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:org.equinoxosgi.toast.dev.airbag,org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:org.equinoxosgi.toast.client.emergency,org.eclipse.launchbar.core.descriptorType.default\:Toast
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Main/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Main/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:New_configuration/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:New_configuration/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Toast/activeLaunchMode=run
+org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:org.equinoxosgi.toast.client.emergency/activeLaunchTarget=null\:---
+org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:org.equinoxosgi.toast.dev.gps/activeLaunchTarget=null\:---

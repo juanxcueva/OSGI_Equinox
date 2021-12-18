@@ -1,0 +1,11 @@
+package org.equinoxosgi.toast;
+
+import java.util.List;
+
+public class Airbag {
+	private List listeners;
+
+	public Airbag() {
+	 super();
+	 listeners = new ArrayList();
+	 }

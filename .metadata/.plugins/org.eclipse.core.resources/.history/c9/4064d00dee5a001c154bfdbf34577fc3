@@ -1,0 +1,5 @@
+package org.equinoxosgi.toast;
+
+public interface IAirbagListener {
+
+}
