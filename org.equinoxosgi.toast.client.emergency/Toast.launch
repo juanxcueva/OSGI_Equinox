@@ -21,6 +21,8 @@
     <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Declipse.ignoreApp=true -Dosgi.noShutdown=true"/>
     <stringAttribute key="pde.version" value="3.3"/>
     <setAttribute key="selected_target_bundles">
+        <setEntry value="org.eclipse.core.jobs@default:default"/>
+        <setEntry value="org.eclipse.equinox.common@2:true"/>
         <setEntry value="org.eclipse.osgi@-1:true"/>
     </setAttribute>
     <setAttribute key="selected_workspace_bundles">
@@ -29,6 +31,7 @@
         <setEntry value="org.equinoxosgi.toast.dev.gps@default:default"/>
     </setAttribute>
     <booleanAttribute key="show_selected_only" value="false"/>
+    <stringAttribute key="timestamp" value="1639869389187"/>
     <booleanAttribute key="tracing" value="false"/>
     <booleanAttribute key="useCustomFeatures" value="false"/>
     <booleanAttribute key="useDefaultConfigArea" value="true"/>

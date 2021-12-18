@@ -1,6 +1,8 @@
-package org.equinoxosgi.toast.dev.gps;
+package org.equinoxosgi.toast.internal.dev.gps.fake;
 
-public class Gps {
+import org.equinoxosgi.toast.dev.gps.IGps;
+
+public class FakeGps implements IGps {
 	public int getHeading() {
 		return 90; // 90 degrees (east)
 	}
