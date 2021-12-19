@@ -22,7 +22,7 @@
     <stringAttribute key="pde.version" value="3.3"/>
     <setAttribute key="selected_target_bundles">
         <setEntry value="org.eclipse.core.jobs@default:default"/>
-        <setEntry value="org.eclipse.equinox.common@2:true"/>
+        <setEntry value="org.eclipse.equinox.common@default:true"/>
         <setEntry value="org.eclipse.osgi@-1:true"/>
     </setAttribute>
     <setAttribute key="selected_workspace_bundles">
